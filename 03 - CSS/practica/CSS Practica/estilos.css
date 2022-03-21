@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+main{
+    padding: 60px 0;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+header{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #97cef3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #97cef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100px;
+    padding-left: 10px;
+}   
+
+nav{
+    padding: 30px 10px px 0 0;
+    text-align: right ;
+    color: E1DEDE;
+    display: flexbox;
+    font-size: medium;
+    width: 95%;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    align-items: center;
+    
+
+}
+nav ul{
+    list-style: none;
+}
+nav li{ 
+    display: inline-block;
+    justify-content: center;
+    margin: 0 15 0 0;
+}
+nav a:link, a:visited{
+    padding: 7px 7px 7px 7px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: gray;    
+}
+
+nav a:hover{
+    color: #FFFFFF;
+    background-color: #1b47d8;
+}
+
+.logo{
+    padding-left: ;
+    padding-top: ;
+    position: fixed;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#primer{
+    display: inline;
+    height: 500 px;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    
+}
+
